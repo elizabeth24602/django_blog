@@ -1,6 +1,1 @@
-language: python
-Python:
-    - "3.4"
-install: "pip install -r requirements.txt"
-script:
-- SECRET_KEY= "whatever" python manage.py test
+https://gist.github.com/kevin-ci/8818e9245b262e10f4e193227ede59b8
