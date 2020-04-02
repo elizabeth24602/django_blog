@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Playfair+Display&display=swap');
 
 
 .navbar-form input, .form-inline input {
@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial;
+    font-family: 'Playfair Display';
     padding-top: 50px;
 }
 
@@ -24,6 +24,7 @@ body {
     background-repeat: no-repeat;
     -webkit-filter: none;
     filter: none;
+    background-image: none;
 }
 
 footer {
@@ -141,6 +142,10 @@ a, a:hover {
 
 .boldtext{
     font-weight: bold;
+}
+
+.btn {
+    font-family: "Great Vibes";
 }
 
 @media screen and (min-width: 768px) {
