@@ -31,13 +31,18 @@ footer {
     margin-top: 40px;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #ededed;
+    background-color: #ffcccc;
 }
 
 h1, h1 a {
     color: #000;
     text-decoration: none;
     font-family: 'Great Vibes';
+}
+
+h3 {
+    font-family: 'Playfair Display';
+    color: #ff9999;
 }
 
 #masthead {
@@ -76,9 +81,19 @@ h1, h1 a {
 }
 
 a, a:hover {
-    color: #223344;
+    color: #ffcccc;
     text-decoration: none;
 }
+
+.blank {
+    font-family: 'Cinzel',cursive;
+    color: #000;
+    position: center;
+    text-decoration: none;
+    background-color: #000;
+    text-align: center;
+    margin: 30px;
+}  
 
 .icon-bar {
     background-color: #fff;
@@ -146,6 +161,7 @@ a, a:hover {
 
 .btn {
     font-family: "Great Vibes";
+    background-color: #ffcccc;
 }
 
 @media screen and (min-width: 768px) {
